@@ -76,6 +76,10 @@ h5{
   /*font-weight: bold;*/
 }
 
+.navbar-brand {
+    font-size: 2em
+}
+
 .p-tiny{
   font-size: 0.8em;
   text-align: center;
@@ -132,6 +136,10 @@ a:hover {
   color: blue;
   background-color: transparent;
   text-decoration: underline;
+}
+
+a:hover .icon-img {
+    opacity: 0.8
 }
 
 a:active {
